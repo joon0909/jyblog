@@ -1,0 +1,30 @@
+@import "src/common/common";
+.MainArea{
+  width: 100vw;
+  height: 100vh;
+  background: #efefef;
+  display: flex;
+  align-items: flex-end;
+  .mainTitleSection{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    p:first-child{
+      font-size: 20px;
+      line-height: 2.0;
+    }
+    h1{
+      font-family: 'PartialSansKR-Regular';
+      font-size: 140px;
+    }
+    p:last-child{
+      font-size: 20px;
+      line-height: 2.0;
+      margin-bottom: 100px;
+      margin-top: 50px;
+    }
+  }
+}
