@@ -17,6 +17,7 @@
     h1{
       font-family: 'PartialSansKR-Regular';
       font-size: 140px;
+      animation: linear mainTitle infinite 5s;
       background: linear-gradient(to right top, #575555, #030303, #7f7f85);
       color: transparent;
       -webkit-background-clip: text;
@@ -29,7 +30,9 @@
       font-family: 'InkLipquid';
       text-align: right;
       color: #585e6b;
+      text-shadow: 1px 1px 3px gray;
     }
   }
+
 
 }
